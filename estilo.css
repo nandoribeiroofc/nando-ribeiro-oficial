@@ -5,3 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap');
 
 .section h2{font-family:'Cormorant Garamond',serif!important;font-weight:700!important;letter-spacing:.02em!important}
+.section h2{
+  font-family:'Cormorant Garamond',serif!important;
+  font-weight:600!important;
+  font-size:clamp(36px,8vw,52px)!important;
+  line-height:1!important;
+  letter-spacing:.08em!important;
+  text-transform:uppercase!important;
+  color:#fff!important;
+}
