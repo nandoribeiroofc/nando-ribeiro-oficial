@@ -2,3 +2,6 @@
 .brand img{width:90px!important;height:auto!important;display:block!important;object-fit:contain!important}.brand{width:110px!important;height:80px!important;border:0!important;padding:0!important}
 @media(max-width:850px){.brand{position:absolute!important;top:10px!important;left:20px!important;margin:0!important;z-index:20!important}.brand img{width:90px!important;height:auto!important}}
 @media(max-width:850px){.brand{top:-75px!important;left:0px!important}.brand img{width:145px!important}}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap');
+
+.section h2{font-family:'Cormorant Garamond',serif!important;font-weight:700!important;letter-spacing:.02em!important}
