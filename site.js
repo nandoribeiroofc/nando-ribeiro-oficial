@@ -1,8 +1,10 @@
 // EDITE AQUI: agenda e vídeo
 const VIDEO_URL = ""; // Ex.: https://www.youtube.com/embed/SEU_VIDEO
-const AGENDA = [
-  {data:"Em breve", cidade:"Nova data", local:"Agenda aberta", hora:"Consulte"}
+  const AGENDA = [
+  {data:"22 AGO • 21H", cidade:"Teodoro Sampaio - SP", local:"Ass. Ribeirão Bonito"},
+  {data:"29 AGO • 22H", cidade:"Presidente Epitácio - SP", local:"Filarmônica Piscinas Clube Bar"}
 ];
+
 
 const q=s=>document.querySelector(s);
 q('#year').textContent=new Date().getFullYear();
