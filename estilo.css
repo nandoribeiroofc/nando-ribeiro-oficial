@@ -14,3 +14,19 @@
   text-transform:uppercase!important;
   color:#fff!important;
 }
+@media (max-width:850px){
+  html,body{
+    width:100%!important;
+    max-width:100%!important;
+    margin:0!important;
+    overflow-x:hidden!important;
+  }
+
+  .hero,
+  .hero-bg{
+    width:100%!important;
+    max-width:100%!important;
+    left:0!important;
+    right:0!important;
+  }
+}
