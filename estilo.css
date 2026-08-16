@@ -30,3 +30,21 @@
     right:0!important;
   }
 }
+@media (max-width:850px){
+  .video-panel{
+    width:calc(100% - 32px)!important;
+    max-width:calc(100% - 32px)!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+    box-sizing:border-box!important;
+    left:auto!important;
+    right:auto!important;
+    transform:none!important;
+  }
+
+  .video-section{
+    padding-left:0!important;
+    padding-right:0!important;
+    overflow:hidden!important;
+  }
+}
