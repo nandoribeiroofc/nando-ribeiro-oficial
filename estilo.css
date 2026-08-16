@@ -57,3 +57,13 @@
     overflow-wrap:break-word!important;
   }
 }
+@media (max-width:850px){
+  .video-panel h2{
+    font-size:9vw!important;
+    line-height:1!important;
+    white-space:nowrap!important;
+    letter-spacing:1px!important;
+    overflow-wrap:normal!important;
+    word-break:normal!important;
+  }
+}
